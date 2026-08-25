@@ -100,7 +100,7 @@
     </div>
     
     <?php
-        $con = mysqli_connect('localhost','root','mankachar@26','user_info');
+        $con = mysqli_connect('localhost','root','Password','user_info');
         if(isset($_POST['sub']))
             {
                 $username=$_POST['userid'];
